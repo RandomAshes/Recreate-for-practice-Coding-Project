@@ -1,0 +1,312 @@
+/******* Main Styles;
+	Layout, type, color
+**********************/
+
+html, body {
+	min-height: 100%;
+	background-color: #fff;
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #222;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 88%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 870px;
+	text-align: center;
+}
+
+.main-section {
+  font-size: 100%;
+  line-height: 2.1em;
+  font-weight: 300;
+}
+
+		.main-section p {
+		  width: 100%;
+		  margin-bottom: 2.22222em;
+		  font-size: 1.1em;
+		}
+
+		.main-section h1 {
+		  font-size: 2.77777em;
+		  font-weight: 300;
+		  text-transform: uppercase;
+		  letter-spacing: 0.2em;
+		  margin-bottom: 1.3636em;
+		  line-height: 1.25em;
+		}
+		.main-section h1 span {
+		  font-weight: 700;
+		}
+		.main-section h2 {
+		  font-size: 1.45em;
+		  font-weight: 700;
+		  text-transform: uppercase;
+		  letter-spacing: 0.23em;
+		  margin-bottom: 1.3636em;
+		  line-height: 1.25em;
+		}
+
+		.main-section h1,
+		.main-section p,
+		.main-section h2 {
+			width: 600px;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: left;
+			margin-top: 0;
+		}
+
+/******* INTRO *******
+**********************/
+.intro {
+	height: 667px;
+	background: url(../img/tools.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.wanted-grouped {
+		color: #fff;
+	  text-align: center;
+	  width: 294px;
+	  height: 250px;
+	  position: absolute;
+	  left: 50%;
+	  margin-left: -147px;
+	  top: 50%;
+	  margin-top: -175px;
+	}
+
+		/*ARTIST*/
+	.wanted-grouped h4 {
+			font-size: 14px;
+			font-weight: normal;
+			text-transform: uppercase; 
+			margin-bottom: 24px;
+			margin-top: 8px;
+		}
+			/*W A N T E D*/
+			.wanted {
+				border: 2px solid #fff;
+				padding: 20px 10px;
+				/*font-size: large;*/
+			}
+
+			.wanted h1 {
+				font-size: 72px;
+				font-weight: 300;
+				line-height: 82px;
+				margin: 0;
+			}
+
+			.wanted h1.top span:first-child {
+				margin-right: -15px;
+			}
+
+			.wanted h1.top span:nth-child(2) {
+				margin-right: -6px;
+			}
+
+			.wanted h1.bottom span:first-child {
+				margin-left: 9px;
+			}
+			.wanted h1.bottom span:nth-child(2) {
+				margin-left: 8px;
+			}
+
+			.wanted h1.bottom span:nth-child(3) {
+				margin-left: 6px;
+			}
+			/*Anchor button*/
+			.wanted-grouped a {
+				color: #fff;
+				display: inline-block;
+				height: 24px;
+				width: 24px;
+				padding: 4px 2px 0 2px;
+				margin-top: 25px;
+				border: 1px solid #fff;
+				border-radius: 30px;
+				  -webkit-transition: all 0.5s ease;
+				  -moz-transition: all 0.5s ease;
+				  -ms-transition: all 0.5s ease;
+				  -o-transition: all 0.5s ease;
+			}
+
+/******JOIN NUTANIX
+*************************/
+
+.join  {
+	background: url('../img/curves.jpg') left bottom repeat-x;
+}
+	
+	.join h1 {
+		padding-top: 2.8em;
+		font-weight: 700px;
+	}
+
+	.join img {
+		margin-top: 155px;
+	}
+
+/******Design First
+*************************/
+.design-first {
+	color: #fff;
+	background: url('../img/wires.jpg') top center;
+	background-size: cover;
+}
+
+	.design-first h1 {
+		padding-top: 260px;
+	}
+
+
+/******Modern Design
+*************************/
+
+.modern-design {
+	color: #fff;
+	overflow: hidden;
+}
+
+	.modern-design h1 {
+		padding-top: 145px;
+	}
+
+	.modern-design h1,
+	.modern-design p {
+		width: 59%;
+	}
+
+.left {
+	background-color: #37393c;
+}
+
+.left,
+.right {
+	float: left;
+	width: 50%;
+	height: 697px;
+}
+
+.right img {
+	height: 100%;
+}
+
+
+
+/*******Responsibilities 
+				and Requirements
+*************************/
+
+.responsibilities h2 {
+	padding-top: 145px;
+}
+
+.requirements h2 {
+	padding-top: 75px;
+}
+
+/*******Contact Button
+*************************/
+
+.contact a {
+  text-align: center;
+  display: block;
+  width: 300px;
+  color: #424950;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 30px;
+  border: 2px solid #424950;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+.contact a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 296px;
+  height: 52px;
+  background: #424950;
+  margin: -37px 0 0 -30px;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  z-index: -1;
+}
+.contact a:hover {
+  color: #fff;
+}
+.contact a:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+
+/*.contact a {
+	border: solid 2px #424950;
+	color:#424950;
+	display: block;
+	width: 296px;
+	margin: 230px auto;
+	padding: 15px 0;
+	text-align: center;
+
+	font-size: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+
+.contact a:hover {
+	color: #fff;
+	background-color: #424950;
+}*/
+
+/*******Footer
+*************************/
+
+#footer p {
+	display: block;
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	font-size: 10px;
+	padding-bottom: 33px;
+}
+
+#footer p,
+#footer a {
+	color:#aaa;
+}
+
+#footer a {
+	text-decoration: underline;
+}
+
+
+/******ClearFix
+*************************/
+.clearfix {
+	clear: both;
+}
